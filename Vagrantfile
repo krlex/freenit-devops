@@ -12,6 +12,7 @@ Vagrant.configure(API_VERSION) do |config|
         vb.name = srv["name"]
         vb.memory = srv["memory"]
         vb.cpus = srv["cpu"]
+      machine.vm.provision "shell", path: srv["provision"]
       end
     end
   end
