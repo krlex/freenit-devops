@@ -13,6 +13,7 @@ Vagrant.configure(API_VERSION) do |config|
         vb.memory = srv["memory"]
         vb.cpus = srv["cpu"]
       machine.vm.provision "shell", path: srv["provision"]
+      machine.vm.synced_folder ".", "/vagrant", type: "rsync"
       end
     end
   end
