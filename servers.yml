@@ -1,0 +1,31 @@
+---
+
+  - name: debian
+    box: debian/buster64
+    box_ip: 192.168.4.1
+    memory: 1024
+    cpu: 1
+
+  - name: ubuntu
+    box: ubuntu/bionic64
+    box_ip: 192.168.4.2
+    memory: 1024
+    cpu: 1
+
+  - name: fedora
+    box: generic/fedora31
+    box_ip: 192.168.4.3
+    memory: 1024
+    cpu: 1
+
+  - name: centos
+    box: centos/7
+    box_ip: 192.168.4.4
+    memory: 1024
+    cpu: 1
+
+  - name: freebsd
+    box: krlex/freebsd-12.1.2-cbsd
+    box_ip: 192.168.4.5
+    memory: 1024
+    cpu: 1
