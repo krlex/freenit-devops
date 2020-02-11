@@ -15,7 +15,7 @@ sudo apt install nodejs -y > /dev/null 2>&1
 
 echo "$BIN_DIR/download_repos.sh" > /home/vagrant/init.sh > /dev/null 2>&1
 echo "$BIN_DIR/devel.sh" >> /home/vagrant/init.sh > /dev/null 2>&1
-chmod +x /home/vagrant/start.sh > /dev/null 2>&1
+chmod +x /home/vagrant/init.sh > /dev/null 2>&1
 
 echo "You need to start init script"
 echo "Example: \n
