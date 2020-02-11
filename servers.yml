@@ -1,0 +1,36 @@
+---
+
+  - name: debian1
+    box: debian/buster64
+    box_ip: 192.168.4.10
+    memory: 1024
+    cpu: 1
+    provision: bin/common.sh
+
+#  - name: ubuntu
+#    box: ubuntu/bionic64
+#    box_ip: 192.168.4.20
+#    memory: 1024
+#    cpu: 1
+#    provision: scripts/apt.sh
+#
+#  - name: fedora
+#    box: generic/fedora31
+#    box_ip: 192.168.4.30
+#    memory: 1024
+#    cpu: 1
+#    provision: scripts/yum.sh
+#
+#  - name: centos
+#    box: centos/7
+#    box_ip: 192.168.4.40
+#    memory: 1024
+#    cpu: 1
+#    provision: scripts/yum.sh
+#
+#  - name: freebsd
+#    box: krlex/freebsd-12.1.2-cbsd
+#    box_ip: 192.168.4.50
+#    memory: 1024
+#    cpu: 1
+#    provision: scripts/pkg.sh
